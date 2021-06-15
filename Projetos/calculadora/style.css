@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(104, 104, 232);
+    font: normal 12pt arial;
+
+}
+
+header{
+
+    color: white;
+    text-align: center;
+    font: normal 10pt;
+}
+
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 70px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.344);
+    text-align: center;
+    
+}
+
+div.calculadora {
+    background-color: rgb(12, 12, 12)68, 142, 142);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    padding: 15px;
+    transform: matrix();
+    border-radius: 15px;
+
+
+}
+
+button.b {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button.o {
+    width: 102px;
+    height: 50px;
+}
+
+button.i {
+  
+}
+
+#resultado{
+    background-color: white;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.calculadora {
+    background: darkcyan;
+}
