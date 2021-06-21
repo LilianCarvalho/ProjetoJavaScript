@@ -1,4 +1,4 @@
-sexo = 'FEMININO'
+var sexo = 'FEMININO'
 const pesoIdeal = (altura) => {
     switch (Sexo){
         case 'MASCULINO':
@@ -7,7 +7,6 @@ const pesoIdeal = (altura) => {
         case 'FEMININO':
             console.log(`O peso ideal para mulheres de altura: ${heigth.toFixed(2)} é: ${((62.1 * heigth) - 44.7).toFixed(2)}`)
             break
-        default:
-            return
+       
     }
 }
