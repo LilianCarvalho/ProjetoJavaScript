@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Exercício 2</h1>
+      <h2>
+        Receba um array de 10 números inteiros aleatórios de 1 a 100 <br />
+        e retorne qual é o maior número
+      </h2>
+    </header>
+
+    <section>
+      <div>
+        Escolha 10 números entre 1 e 100:
+        <input type="number" name="ns" id="ns" />
+        <input type="button" value="Adicionar" onclick="adicionar()" />
+        <br /><br />
+        <select name="lista" id="lista" size="7"></select>
+        <br /><br />
+        <input type="button" value="Finalizar" onclick="finalizar()" />
+      </div>
+
+      <div id="res"></div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
